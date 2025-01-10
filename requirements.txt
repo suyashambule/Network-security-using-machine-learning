@@ -4,5 +4,4 @@ numpy
 scikit-learn
 pymongo[srv]==3.6
 pymongo
-
-
+pygame
