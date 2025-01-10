@@ -17,3 +17,31 @@ class DataValidation:
         except Exception as e:
             raise NetworkSecurityException(e,sys)
         
+    @staticmethod
+    def read_data(file_path)->pd.DataFrame:
+        try:
+            return pd.read_csv(file_path)
+        except Exception as e:
+            raise NetworkSecurityException(e)
+        
+    def start_data_validation(self)->DataValidationArtifact:
+        try:
+            train_file=self.data_ingestion_artifact.trained_file_path
+            test_file=self.data_ingestion_artifact.test_file_path
+            train_df=DataValidation.read_data(train_file)
+            test_df=DataValidation.read_data(test_file)
+        except Exception as e:
+            raise NetworkSecurityException(e)
+        
+    def validation_columns(self,dataframe:pd.DataFrame)->bool:
+        try:
+            no_of_colums=len(self._schema_config)
+            logging.info(f'Required number os columns:{no_of_colums}')
+            logging.info(f'Data frame columns:{len(dataframe.columns)}')
+            if len(dataframe.columns)==no_of_colums:
+                return True
+            return False
+        except Exception as e:
+            raise NetworkSecurityException(e)
+        
+        
