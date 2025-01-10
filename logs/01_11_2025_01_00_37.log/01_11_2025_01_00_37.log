@@ -1,0 +1,3 @@
+[ 2025-01-11 01:00:38,011 ] 14 root - INFO - Initiate the data ingestion
+[ 2025-01-11 01:00:38,083 ] 86 root - ERROR - Error occurred during train-test split: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+[ 2025-01-11 01:00:38,083 ] 16 root - INFO - Data Ingestion Completed
