@@ -1,2 +1,6 @@
 venv/
 .env
+build/
+dist/
+project_name.egg-info/
+
