@@ -13,8 +13,7 @@ class NetworkSecurityException(Exception):
 
 if __name__ == '__main__':
     try:
-        a = 1 / 0  # This will cause a ZeroDivisionError
+        a = 1 / 0  # 
         print('This should not be printed')
-    except Exception as e:
-        logger.error(f"Exception occurred: {e}")  # Log the exception
-        raise NetworkSecurityException(e, sys)  # Raise custom exception with traceback details
+    except Exception as e: 
+        raise NetworkSecurityException(e, sys) 
