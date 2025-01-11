@@ -1,0 +1,93 @@
+Abnormal_URL:
+  drift_status: false
+  p_value: 0.9597114153770513
+DNSRecord:
+  drift_status: false
+  p_value: 0.9997064605886263
+Domain_registeration_length:
+  drift_status: false
+  p_value: 0.653006152591551
+Favicon:
+  drift_status: false
+  p_value: 1.0
+Google_Index:
+  drift_status: false
+  p_value: 0.9876237011526984
+HTTPS_token:
+  drift_status: false
+  p_value: 0.9999062353866229
+Iframe:
+  drift_status: false
+  p_value: 0.995166717604938
+Links_in_tags:
+  drift_status: false
+  p_value: 0.9982529381226167
+Links_pointing_to_page:
+  drift_status: false
+  p_value: 0.9999999996602011
+Page_Rank:
+  drift_status: false
+  p_value: 0.9999999999999952
+Prefix_Suffix:
+  drift_status: false
+  p_value: 0.9999999999598222
+Redirect:
+  drift_status: false
+  p_value: 1.0
+Request_URL:
+  drift_status: false
+  p_value: 0.323278772120702
+Result:
+  drift_status: false
+  p_value: 0.169756150039334
+RightClick:
+  drift_status: false
+  p_value: 1.0
+SFH:
+  drift_status: false
+  p_value: 0.9964705532516113
+SSLfinal_State:
+  drift_status: false
+  p_value: 0.35927327177063706
+Shortining_Service:
+  drift_status: false
+  p_value: 0.8923284435665428
+Statistical_report:
+  drift_status: false
+  p_value: 0.999999999999956
+Submitting_to_email:
+  drift_status: false
+  p_value: 0.9999999999997877
+URL_Length:
+  drift_status: false
+  p_value: 0.9999971010402764
+URL_of_Anchor:
+  drift_status: false
+  p_value: 0.6690447230238084
+age_of_domain:
+  drift_status: false
+  p_value: 0.24915029931264948
+double_slash_redirecting:
+  drift_status: false
+  p_value: 0.9993864328065777
+having_At_Symbol:
+  drift_status: false
+  p_value: 0.8007673044155985
+having_IP_Address:
+  drift_status: false
+  p_value: 0.9826271842488499
+having_Sub_Domain:
+  drift_status: false
+  p_value: 0.9999998099738984
+on_mouseover:
+  drift_status: false
+  p_value: 1.0
+popUpWidnow:
+  drift_status: false
+  p_value: 0.9999999489728584
+port:
+  drift_status: false
+  p_value: 0.9999999999990964
+web_traffic:
+  drift_status: false
+  p_value: 1.0
